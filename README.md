@@ -1,1 +1,1 @@
-This and this is my repo for your course-homework :)
+This and this is my repo for course-homework :)

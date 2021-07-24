@@ -2,13 +2,14 @@ import random
 print("Hello my friend, what`s your name?")
 name=input()
 while(True):
-    print(name + " ,do you wanna play? (put `n` or `y`)")
+    print(name + " ,do you wanna play? (put `y` or `n`)")
     ans_play=input()
-    if (ans_play=="n"):
+
+    if(ans_play=="y"):
+        print("OK, lets play `21`,your pull first:")
+    elif (ans_play=="n"):
         print("OK, good bye,"+name)
         break
-    elif(ans_play=="y"):
-        print("OK, lets play `21`,your pull first:")
         score_player =0
         score_bot =0
         while(True):

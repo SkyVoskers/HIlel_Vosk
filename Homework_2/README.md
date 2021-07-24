@@ -1,1 +1,1 @@
-This and this is my repo-directory for your course-homework :)
+Homework For the 2-nd lesson

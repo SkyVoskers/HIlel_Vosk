@@ -5,13 +5,15 @@ while(True):
     print(name + " ,do you wanna play? (put `y` or `n`)")
     ans_play=input()
 
-    if(ans_play=="y"):
-        print("OK, lets play `21`,your pull first:")
-    elif (ans_play=="n"):
+    if (ans_play=="n"):
         print("OK, good bye,"+name)
         break
-        score_player =0
-        score_bot =0
+    elif(ans_play=="y"):
+        print("OK, lets play `21`,your pull first:")
+        score_player = 0
+        score_bot = 0
+
+
         while(True):
             print("Your score:", score_player,"Push `y` for getting more cards or `n` for stop:")
             ans_y=input()

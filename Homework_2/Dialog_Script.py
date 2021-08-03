@@ -3,8 +3,8 @@ print("Hello my friend, what`s your name?")
 name=input()
 while(True):
     print(name + " ,do you wanna play? (put `y` or `n`)")
-    ans_play=input()
-
+    ans_p
+    lay = input()
     if (ans_play=="n"):
         print("OK, good bye,"+name)
         break

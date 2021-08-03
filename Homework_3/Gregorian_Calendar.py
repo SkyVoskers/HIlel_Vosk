@@ -3,7 +3,5 @@ while(True):
     year=int(input())
     if (year % 400== 0 or year % 4 ==0):
         print("Input year", year, "is leap")
-    if(year / 100==year/2):
-        print("Input year", year, "is not leap")
     else:
         print("Input year", year, "is not leap")

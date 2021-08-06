@@ -9,7 +9,6 @@ try:
         str_sqr=str(sqr)
         if(str_sqr.find(str_first_number,len(str_sqr)-len(str_first_number))!=-1):
             print(first_number,"*",first_number,"=",sqr)
-
 except:
     print("Твое число", number, "не является натуральным или вообще не число")
 

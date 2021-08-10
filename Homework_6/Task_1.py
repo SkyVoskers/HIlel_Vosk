@@ -27,7 +27,7 @@ arr = [random.randint(1,100) for j in range(size)]
 print(arr)
 print(arr[2])
 print(arr[len(arr)-1])
-rmv_index=int(input("Введите индекс элемента, который хотите удалить: "),-1)
+rmv_index=int(input("Введите индекс элемента, который хотите удалить: "))
 
 for i in range (len(arr)):
     if(arr[i]==arr[rmv_index]):

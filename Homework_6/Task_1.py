@@ -26,11 +26,12 @@ size=int(input("Введите размер списка:"))
 arr = [random.randint(1,100) for j in range(size)]
 print(arr)
 print(arr[2])
-rmv_index=int(input("Введите индекс элемента, который хотите удалить: "))
+print(arr[len(arr)-1])
+rmv_index=int(input("Введите индекс элемента, который хотите удалить: "),-1)
 
-for i in range (len(arr)+1):
+for i in range (len(arr)):
     if(arr[i]==arr[rmv_index]):
-        arr[rmv_index]=arr[len(arr)]
+        arr[rmv_index]=arr[len(arr)-1]
         arr.pop()
         print(arr)
 print(arr)
